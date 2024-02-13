@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AC and NON-AC Cards</title>
+  <style>
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .card {
+      width: 200px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(219, 14, 14, 0.1);
+      overflow: hidden;
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    }
+
+    .card img {
+      width: 80%;
+        max-width: 100%; /* Ensure image doesn't exceed card width */
+  height: auto;
+  border-bottom: 1px solid #3bcea2;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 18px;
+      color: #580cf0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="card">
+      <img src="img/sunnybunny.png" alt="AC" />
+      <div class="card-content">
+        <h3>AC</h3>
+        <p>Description about AC</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/sunnybunny.png" alt="NON-AC" />
+      <div class="card-content">
+        <h3>NON-AC</h3>
+        <p>Description about NON-AC</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

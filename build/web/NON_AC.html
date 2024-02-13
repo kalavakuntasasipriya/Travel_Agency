@@ -1,0 +1,671 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>NON-AC</title>
+	<style>
+		.bottom
+		{
+			width: 100%;
+			border: 1px solid black;
+			background-color: pink;
+			
+		}
+		.bottom div table
+		{
+			padding: 30px;
+			text-align: justify;
+			font-size: 16px;
+		}
+		.red 
+		{
+			height: 15px;
+			width: 15px;
+			background-color: red;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.black 
+		{
+			height: 15px;
+			width: 15px;
+			background-color: black;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.white 
+		{
+			height: 15px;
+			width: 15px;
+			background-color: white;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.blue 
+		{
+			height: 15px;
+			width: 15px;
+			background-color: blue;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.yellow
+		{
+			height: 15px;
+			width: 15px;
+			background-color:yellow;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+      		.skyblue
+		{
+			height: 15px;
+			width: 15px;
+			background-color: skyblue;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.orange 
+		{
+			height: 15px;
+			width: 15px;
+			background-color:orange;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.green
+		{
+			height: 15px;
+			width: 15px;
+			background-color:green;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.lightgray
+		{
+			height: 15px;
+			width: 15px;
+			background-color:lightgray;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.maroon
+		{
+			height: 15px;
+			width: 15px;
+			background-color:maroon;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+		.navy
+		{
+			height: 15px;
+			width: 15px;
+			background-color:navy;
+			border-radius: 50%;
+			display: inline-block;
+			border: 1px solid black;
+		}
+ 
+		button
+		{
+			background-color: #c2f0c2;
+			color: black;
+			border-radius:10px;
+			
+			
+		}
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            color: #fff;
+            padding: 25px;
+            text-align: right;
+            position: fixed; 
+            top: 0; 
+            width: 97%;
+        }
+        .navbar a {
+            display: inline-block; 
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+            display: inline-block; /* Align the search input and button in the same line */
+        }
+        .navbar button {
+            padding: 8px 12px;
+            font-size: 16px;
+        }
+        #content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+	</style>
+</head>
+<body>
+
+    <div class="navbar">
+            <a href="main.html" style="font-size: 16px;">Home</a>
+            <a href="aboutus.html" style="font-size: 16px;">About</a>
+            <a href="AC.html" style="font-size: 16px;">AC</a>
+            <a href="NON_AC.html" style="font-size: 16px;">NON-AC</a>
+            <a href="contactinfose.html" style="font-size: 16px;">Contact</a>
+            <a href="feedback.jsp" style="font-size: 16px;">Feedback</a>
+            <a href="review.html" style="font-size: 16px;">Reviews</a>
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()">Go</button>
+            <a href="profile.jsp" style="font-size: 16px;">Profile</a>
+    </div>
+    <script>
+        function search() {
+            var searchTerm = document.getElementById("searchInput").value.toLowerCase();
+            var sections = document.getElementsByClassName("bottom");
+
+            for (var i = 0; i < sections.length; i++) {
+                var sectionText = sections[i].textContent.toLowerCase();
+
+                if (sectionText.includes(searchTerm)) {
+                    // Scroll to the found section
+                    sections[i].scrollIntoView({ behavior: "smooth" });
+                    break; // Stop searching after the first match
+                }
+                else
+                {
+                    document.getElementById("searchInput").value="not found";
+                }
+            }
+        }
+    </script>
+    <br><br><br><br><br>
+		<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_maruti_omni.html"><img src="non_maruti_omni1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Maruti Omni</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 3</p>
+					<p>No.of Cars:- 10</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>4600/Hour    &nbsp;  &nbsp; </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="navy"></span> <span class="maroon"></span> <span class="skyblue"></span> <span class="white"></span> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_maruti_omni.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_maruti_omni.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_ambassdors.html"><img src="non_ambassdors1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Ambassdors</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">7-Seat<br>
+					<p>No.of Airbags:- 3</p>
+					<p>No.of Cars:- 6</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>4150/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- AC</p>
+					<p>Colours available:-<span class="maroon"></span> <span class="yellow"></span> <span class="skyblue"></span> <span class="white"></span> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_ambassdors.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_ambassdors.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_mahindra_armada.html"><img src="non_mahindra_armada1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Mahindra Armada</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 2</p>
+					<p>No.of Cars:- 5</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>3400/Hour    &nbsp;  &nbsp; </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="black"></span> <span class="green"></span> <span class="blue"></span> <span class="white"></span> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_mahindra_armada.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_mahindra_armada.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_ford.html"><img src="non_ford1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Ford F-150</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 6</p>
+					<p>No.of Cars:- 7</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>5200/Hour    &nbsp;  &nbsp; </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="white"></span> <span class="navy"></span> <span class="skyblue"></span> <span class="lightgray"></span> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_ford.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_ford.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"><a href="non_maruti_suzuki_alto.html"><img src="non_maruti_suzuki_alto1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Maruti Suzuki Alto 800</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 2</p>
+					<p>No.of Cars:- 2</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>4800/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="green"></span> <span class="maroon"></span></p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_maruti_suzuki_alto.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_maruti_suzuki_alto.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_mazda.html"><img src="non_mazda1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Mazda MX-5 Miata</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 3</p>
+					<p>No.of Cars:- 8</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>4300/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="navy"></span> <span class="maroon"></span> <span class="skyblue"></span>  </p>  
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_mazda.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_mazda.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"><a href="non_honda.html"><img src="non_honda5.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Honda Civic</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 6</p>
+					<p>No.of Cars:- 3</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>5600/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="red"></span> <span class="yellow"></span> <span class="skyblue"></span> <span class="white"></span> <span class="orange"></span></p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_honda.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_honda.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"><a href="non_nissan.html"><img src="non_nissan1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Nissan Frontier</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 2</p>
+					<p>No.of Cars:- 8</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>5350/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="black"></span> <span class="white"></span> <span class="lightgray"></span>  </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_nissan.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_nissan.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"><a href="non_camaro.html"><img src="non_camaro1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Chevrolet Camaro</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 7</p>
+					<p>No.of Cars:- 4</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>6500/Hour    &nbsp;  &nbsp; </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="yellow"></span> <span class="orange"> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_canaro.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_camaro.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"><a href="non_subaru.html"><img src="non_subaru1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Subaru Outback</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 8</p>
+					<p>No.of Cars:- 7</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>4800/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="navy"></span> <span class="maroon"></span> <span class="white"></span> <span class="black"></span> <span class="green"></p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_subaru.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_subaru.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_ford_mustang.html"><img src="non_ford_mustang1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Ford Mustang</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 8</p>
+					<p>No.of Cars:- 2</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>6200/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="red"></span> <span class="lightgray"></span> <span class="skyblue"></p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_ford_mustang.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_ford_mustang.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"><a href="non_tata_sumo.html"><img src="non_tata_sumo1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Tata Sumo</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 2</p>
+					<p>No.of Cars:- 5</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>4890/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="black"></span> <span class="blue"></span> <span class="white"></p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_tat_sumo.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_tata_sumo.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_golf.html"><img src="non_golf1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Volkswagen Golf</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 9</p>
+					<p>No.of Cars:- 10</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>6300/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="navy"></span> <span class="maroon"></span> <span class="skyblue"></span> <span class="white"></span> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_golf.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_golf.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"> <a href="non_renault_triber.html"><img src="non_renault_triber1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Renault Triber 2022</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 4</p>
+					<p>No.of Cars:- 3</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>4650/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="orange"></span> <span class="green"></span> <span class="white"></span> <span class="blue"></span> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_renault_triber.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_renault_triber.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                    <td style="padding-left: 40px; padding-right: 100px;"><a href="non_jeep.html"><img src="non_jeep1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Jeep Wrangler</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 4</p>
+					<p>No.of Cars:- 9</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>6400/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="white"></span> <span class="orange"></span> <span class="skyblue"> </p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star-half-o" style="font-size:24px"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_jeep.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_jeep.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+	<div class="bottom" >
+		<div>
+			<table>
+				<tr>
+                                     <td style="padding-left: 40px; padding-right: 100px;"><a href="non_toyota.html"><img src="non_toyota1.jpg" width="400px"></a></td>
+					<td width="1000px">
+						<font color="#800080" size="6px"><b>Toyota Land Crusier</b></font> <br> <br>
+                              		<img src="gas-pump-solid.svg" width="25" height="25">Diesel &nbsp;
+                                        <img src="manual.png" width="25" height="25">Manual &nbsp;
+					<img src="car-seat.png" width="25" heigth="25">5-Seat<br>
+					<p>No.of Airbags:- 10</p>
+					<p>No.of Cars:- 3</p>
+ 					<p>Cost: <i class="fas fa-rupee-sign"></i>6900/Hour    &nbsp;  &nbsp;  </p>
+					<p>Type:- NON-AC</p>
+					<p>Colours available:-<span class="black"></span> <span class="yellow"></span> <span class="navy"></span> <span class="green"></span> <span class="white"></p>  				
+					
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					<i class="fa fa-star"  style="font-size: 25; color: black ;"></i>
+					</td>	
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="book_non_toyota.jsp"><button style="width:115px;height:45px"><h3>BOOK NOW</h3></button></a> <a href="non_toyota.html"><button style="width:145px;height:45px"><h3>VIEW DETAILS</h3></button></a></td>
+				</tr>
+			</table>
+		</div>
+	</div><br>
+
+</body>
+</html>
+
+
+
